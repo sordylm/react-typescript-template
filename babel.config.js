@@ -1,9 +1,14 @@
-module.exports = {
-  "presets": [
-    "react",
-    "es2015",
-    "stage-1"
-  ],
-  "plugins": ["transform-decorators-legacy" /* should always be the first plugin! */]
+const presets = [
+  ["@babel/env", {
+    targets: {
+      edge: "17",
+      firefox: "60",
+      chrome: "67",
+      safari: "11.1",
+      ie: "11"
+    },
+    useBuiltIns: "usage"
+  }]
+];
 
-}
+module.exports = { presets };
