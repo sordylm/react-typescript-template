@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "jsx": "react",
+    "strictNullChecks": false
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "typeRoot": [
+    "./src/types"
+  ]
+}

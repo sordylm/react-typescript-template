@@ -1,0 +1,4 @@
+/node_modules/
+/panel-dist/
+npm-debug.log
+yarn-error.log
